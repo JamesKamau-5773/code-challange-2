@@ -15,9 +15,11 @@ A responsive web application for managing event guests with categorization and a
 
 ## Technologies Used 🛠️
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6)
-- **Styling**: Modern CSS with Flexbox
-- **Version Control**: Git/GitHub
+1**Frontend**: HTML5, CSS3, JavaScript (ES6)
+
+2 **Styling**: Modern CSS with Flexbox
+
+3 **Version Control**: Git/GitHub
 
 ## Installation 💻
 
@@ -28,6 +30,7 @@ A responsive web application for managing event guests with categorization and a
 2.Open index.html in your browser
 
 Usage 🖱️
+
 1.Enter guest name in the input field
 
 2.Click "Add Guest" to add to the list
