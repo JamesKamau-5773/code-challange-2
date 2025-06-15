@@ -23,7 +23,7 @@ A responsive web application for managing event guests with categorization and a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/guest-list-manager.git
+   
 
 2.Open index.html in your browser
 
