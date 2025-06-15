@@ -1,0 +1,132 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(217, 228, 218);
+  padding: 15px;
+}
+
+.container{
+  max-width:600px ;
+  margin:0 auto ;
+  background:grey;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+#guest-form{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#guest-name{
+    flex: 1;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+button{
+  padding:15px;
+  background: whitesmoke;
+  color: rgb(53, 51, 51);
+  border: solid;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #218838;
+  transition: background-color 0.2s;
+}
+
+#guest-list{
+  display: flex;
+  flex-direction: column;  
+  gap: 12px;              
+  list-style: none;       
+  padding: 5px;            
+  margin: 1.5rem 0;
+  width: 100%;
+  max-width: 600px;  
+}
+
+.attending{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+  border-left: 4px solid;
+}
+
+
+
+.attending:hover{
+  transform: translateY(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.attending span{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  flex-grow: 1;
+  padding: 0 1rem;
+  
+}
+
+.attending{
+  border-left: 15px solid #10b981; 
+  background-color: #f0fdf4 ;
+}
+.not-attending{
+  border-right: 15px solid #ef4444; 
+  background-color: #fef2f2 ;
+}
+
+.attending div{
+  display: flex;
+  gap: 8px;
+}
+
+.toggle{
+  padding: 0.5rem 0.75rem;
+  background-color: #68cfe9; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: background-color 0.2s;
+  
+}
+.toggle:hover{
+   background-color: #2563eb;
+}
+.delete-btn {
+  padding: 0.5rem 1rem;
+  background-color: #fee2e2; 
+  color: #b91c1c; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+.delete-btn:hover{
+   background-color: #b91c1c;;
+  box-shadow: 0 2px 4px rgba(185, 28, 28, 0.1);
+}
+.delete-btn:active {
+  transform: scale(0.98);
+}
+.delete-btn::before {
+  content:  "🗑️" ;
+  font-size: 1.2rem;
+}
