@@ -62,6 +62,18 @@ function addGuest(name){
   
   });
 
+  //create an array storing all our guests
+  let guests = [];
+
+  //Load guests from localStorage when page loads
+  window.onload = function(){
+    if (localStorage.getItem('guests')){
+      guests = JSON.parse(localStorage.getItem('guests')); //converts the string back to a JavaScript array
+    }
+    showguests();
+  } ;
+
+  
 //Creating Delete Button
   const deleteButton = document.createElement("button");
   deleteButton.className = "delete-btn"

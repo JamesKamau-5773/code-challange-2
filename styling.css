@@ -139,3 +139,25 @@ button:hover{
   content:  "🗑️" ;
   font-size: 1.2rem;
 }
+
+#guest-category{
+  padding: 0.5rem 1rem;
+  background-color: #b2f7b2; 
+  color: #b91c1c; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+#guest-category:hover{
+  border-color: #aaa;
+  background-color: #9ff05d;;
+  box-shadow: 0 2px 4px rgba(185, 28, 28, 0.1);
+}
